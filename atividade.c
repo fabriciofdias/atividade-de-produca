@@ -2,6 +2,7 @@
 #include <math.h>
 #include <string.h>
 
+//https://github.com/fabriciofdias/atividade-de-producao.git
 // foi importada a biblioteca math.h, para usar alguma das funções dela, como o pow(presente na potencialização) e o sqrt
 //fonte: http://linguagemc.com.br/a-biblioteca-math-h/
 //-/-----------------------------------------------------------------------------------------------------------------------------
@@ -34,7 +35,7 @@ void divisao () {
         printf("Não é possivel fazer a divisão por 0");
     } else {
         float resultado = valor1 / valor2;
-        printf("O resultado da divisão é: %.2f\n",resultado);
+        printf("O resultado da divisao e: %.2f\n",resultado);
     }
 }
 
@@ -63,7 +64,7 @@ void subtracao () {
     scanf("%f", &valor2);
 
     float resultado = valor1 - valor2;
-    printf("O resultado da diferenca é: %.2f\n",resultado);
+    printf("O resultado da diferenca e: %.2f\n",resultado);
 }
 
 // a função potenciação ja tem alguns diferenciais, ou seja, foi utilizado if para que não de algum erro na hora que o usuario for bota algum 0
@@ -121,7 +122,8 @@ int main(void){
     printf("Fabricio Fernandes Dias\n");
     printf("Matricula 202214542\n");
     printf("Analise e desenvolvimento de sistemas\n");
-    printf("atividade de produção 01\n");
+    printf("Universidade LaSalle\n");
+    printf("atividade de produçao 01\n");
 
     do
     {
